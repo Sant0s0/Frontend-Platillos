@@ -1,0 +1,78 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #f1f1f5; /* Gris-lavanda muy claro */
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #1a1a1a; /* Texto principal bien oscuro */
+}
+
+/* Título principal */
+.admin-title {
+  font-size: 28px;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Subtítulos */
+h2, h3 {
+  color: #222 !important;
+  font-weight: 600;
+}
+
+/* Textos de párrafo */
+p {
+  color: #2c2c2c !important;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Tarjetas */
+.order-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  color: #111; /* Texto muy oscuro */
+  transition: transform 0.2s;
+}
+
+.order-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Botones */
+.menu-btn {
+  background: #cdbdf6;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #111;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu-btn:hover {
+  background: #b3a0ea;
+}
+
+/* Grillas */
+.orders-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.no-orders {
+  color: #333;
+  font-weight: 500;
+  margin-top: 15px;
+}
